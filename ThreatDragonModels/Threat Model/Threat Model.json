@@ -1391,8 +1391,8 @@
           },
           {
             "position": {
-              "x": -40,
-              "y": 1115
+              "x": -20.000000000000625,
+              "y": 1125
             },
             "size": {
               "width": 940,
@@ -1504,7 +1504,14 @@
               "providesAuthentication": false,
               "threats": []
             },
-            "zIndex": 20
+            "zIndex": 20,
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
           }
         ],
         "version": "2.6.2",
