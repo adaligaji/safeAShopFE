@@ -43,13 +43,6 @@
               "hasOpenThreats": false,
               "crossingFlows": [],
               "containedElements": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
