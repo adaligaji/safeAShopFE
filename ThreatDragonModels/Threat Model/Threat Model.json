@@ -1504,14 +1504,7 @@
               "providesAuthentication": false,
               "threats": []
             },
-            "zIndex": 20,
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
-            }
+            "zIndex": 20
           }
         ],
         "version": "2.6.2",
