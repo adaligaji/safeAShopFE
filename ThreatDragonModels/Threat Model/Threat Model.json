@@ -19,6 +19,41 @@
         "cells": [
           {
             "position": {
+              "x": 110.00000000000006,
+              "y": 610
+            },
+            "size": {
+              "width": 720,
+              "height": 60
+            },
+            "attrs": {
+              "label": {
+                "text": "Frontera 1 (TB1)\nFrontend - Backend"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "8e67261b-cc22-4d8b-bc22-49b13801339d",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Frontera 1 (TB1)\nFrontend - Backend",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
+          },
+          {
+            "position": {
               "x": 129.99999999999926,
               "y": 290.00000000000136
             },
@@ -253,14 +288,17 @@
           },
           {
             "position": {
-              "x": 599,
-              "y": 410
+              "x": 579,
+              "y": 390
             },
             "size": {
-              "width": 60,
-              "height": 60
+              "width": 120,
+              "height": 120
             },
             "attrs": {
+              "text": {
+                "text": "Proceso 1 (P1)\n\nFrontend\nReact/Vite"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -355,7 +393,7 @@
             "zIndex": 3,
             "data": {
               "type": "tm.Process",
-              "name": "Process",
+              "name": "Proceso 1 (P1)\n\nFrontend\nReact/Vite",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -366,14 +404,54 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Navegación /\nInteracciones",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Navegación /\nInteracciones"
+            ],
+            "id": "634f1a80-3194-4d03-8016-ad8e68f25287",
+            "source": {
+              "cell": "693cee9f-d0d1-487b-a262-7da8dae4e3e4",
+              "port": "8ac1829e-64be-42f6-aeba-cb270b6ee674"
+            },
+            "target": {
+              "cell": "a2644c6b-4760-4da0-9a48-d133b8c29bbd",
+              "port": "e46d3841-3408-4507-be2b-a0fa03c2d861"
+            },
+            "vertices": []
           }
         ],
         "version": "2.6.2",
