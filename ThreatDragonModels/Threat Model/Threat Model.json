@@ -808,8 +808,8 @@
           },
           {
             "position": {
-              "x": 134.99999999999972,
-              "y": 234.00000000000227
+              "x": 135.00000000000006,
+              "y": 245
             },
             "size": {
               "width": 640,
@@ -922,6 +922,58 @@
               "threats": []
             },
             "zIndex": 16
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 17,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Solicitudes HTTPS \nJSON + JWT",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Solicitudes HTTPS \nJSON + JWT"
+            ],
+            "id": "51307030-adff-44a8-8724-d9a11ed75c48",
+            "source": {
+              "x": 700,
+              "y": 450
+            },
+            "target": {
+              "x": 940,
+              "y": 400
+            },
+            "vertices": [
+              {
+                "x": 940,
+                "y": 320
+              }
+            ]
           }
         ],
         "version": "2.6.2",
